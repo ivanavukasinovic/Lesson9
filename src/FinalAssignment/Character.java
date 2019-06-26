@@ -173,13 +173,13 @@ public class Character {
 		ArrayList<ArrayList<String>> rmd = ReadMetaData.readFile();
 
 		Character daenerysStormborn = new Character(rmd.get(0).get(0), rmd.get(1).get(0), rmd.get(2).get(0),
-				new ImageIcon("E:\\FundamentalJava\\Lesson9\\resource\\daenerys.png"));
+				new ImageIcon("resource/daenerys.png"));
 		Character jonSnow = new Character(rmd.get(0).get(1), rmd.get(1).get(1), rmd.get(2).get(1),
-				new ImageIcon("E:\\FundamentalJava\\Lesson9\\resource\\jon.png"));
+				new ImageIcon("resource/jon.png"));
 		Character tyrionLannister = new Character(rmd.get(0).get(2), rmd.get(1).get(2), rmd.get(2).get(2),
-				new ImageIcon("E:\\FundamentalJava\\Lesson9\\resource\\tyrion.png"));
+				new ImageIcon("resource/tyrion.png"));
 		Character cerseiLannister = new Character(rmd.get(0).get(3), rmd.get(1).get(3), rmd.get(2).get(3),
-				new ImageIcon("E:\\FundamentalJava\\Lesson9\\resource\\cersei.png"));
+				new ImageIcon("resource/cersei.png"));
 
 		System.out.println(daenerysStormborn);
 		System.out.println(jonSnow);
